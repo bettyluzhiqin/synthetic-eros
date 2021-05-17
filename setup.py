@@ -21,17 +21,17 @@ else:
     install_package('opencv-python')
 
 setup(
-    name="video_to_ascii",
-    version="1.3.0",
-    author="Joel Ibaceta",
-    author_email="mail@joelibaceta.com",
+    name="synthetic_eros",
+    version="1.0",
+    author="betty lu",
+    author_email="bettyluzhiqin@gmail.com",
     license='MIT',
     description="It is a simple python package to play videos in the terminal",
     long_description="A simple tool to play a video using ascii characters instead of pixels",
-    url="https://github.com/joelibaceta/video-to-ascii",
+    url="https://github.com/bettyluzhiqin@synthetic-eros",
     project_urls={
-        'Source': 'https://github.com/joelibaceta/video-to-ascii',
-        'Tracker': 'https://github.com/joelibaceta/video-to-ascii/issues'
+        'Source': 'https://github.com/bettyluzhiqin/synthetic-eros,
+        'Tracker': 'https://github.com/bettyluzhiqin/synthetic-eros/issues'
     },
     packages=find_packages(),
     include_package_data=True,
@@ -45,7 +45,7 @@ setup(
     keywords='video ascii terminal opencv',
     entry_points={
         "console_scripts": [
-            'video-to-ascii=video_to_ascii.cli:main'
+            'synthetic-eros=synthetic_eros.cli:main'
         ]
     }
 )
