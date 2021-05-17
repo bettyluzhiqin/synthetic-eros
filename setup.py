@@ -30,7 +30,7 @@ setup(
     long_description="A simple tool to play a video using ascii characters instead of pixels",
     url="https://github.com/bettyluzhiqin@synthetic-eros",
     project_urls={
-        'Source': 'https://github.com/bettyluzhiqin/synthetic-eros,
+        'Source': 'https://github.com/bettyluzhiqin/synthetic-eros',
         'Tracker': 'https://github.com/bettyluzhiqin/synthetic-eros/issues'
     },
     packages=find_packages(),
