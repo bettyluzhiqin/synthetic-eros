@@ -3,9 +3,9 @@
 import colorsys
 from xtermcolor import colorize
 
-CHARS_LIGHT = [' ', ' ', '.', ':', '!', '+', '*', 'e', '$', '@', '8']
-CHARS_COLOR = ['.', '*', 'e', 's', '◍']
-CHARS_FILLED = ['░', '▒', '▓', '█']
+CHARS_LIGHT = [' ', ' ', '.', ':', '?', 'x', '♂', 'o', '$', '@', '8']
+CHARS_COLOR = ['.', '*', 'ゅ', 'る', '◍']
+CHARS_FILLED = ['肉', '翻', '▓', '█']
 
 DENSITY = [CHARS_LIGHT, CHARS_COLOR, CHARS_FILLED]
 
